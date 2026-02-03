@@ -1,2 +1,0 @@
-# TNSI
-Cours terminal NSI

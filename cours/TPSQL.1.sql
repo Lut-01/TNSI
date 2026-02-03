@@ -1,0 +1,10 @@
+---q1 SELECT nom  FROM ville ORDER BY nom;
+---q2 SELECT nom,code  FROM ville WHERE UPPER(nom) LIKE 'Z%' OR UPPER(nom) LIKE 'T_%';
+---q3 
+---q4 SELECT code FROM ville WHERE UPPER(nom) LIKE 'CAULLERY';
+---q5 SELECT nom FROM ville WHERE UPPER(nom) LIKE '_____';
+---q6 SELECT * FROM evolution  where code = 59140 ORDER BY effectif ; 
+---q7 INSERT INTO ville(code,nom,latitude,longitude) VALUES (35000, 'Rennes', 50.291048, 2.7772211);
+---q8 UPDATE ville SET nom = 'New-York' WHERE UPPER(nom) LIKE 'RENNES';
+---q9 
+---q10 DELETE FROM ville WHERE UPPER(nom) LIKE 'NEW-YORK' AND UPPER(nom) LIKE 'LILLE';
